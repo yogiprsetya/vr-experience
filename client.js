@@ -14,7 +14,7 @@ function init(bundle, parent, options = {}) {
 
   const buttonsPanel = new Surface(
     400,
-    550,
+    400,
     Surface.SurfaceShape.Flat
   );
 
@@ -24,13 +24,13 @@ function init(bundle, parent, options = {}) {
   )
 
   r360.renderToSurface(
-    r360.createRoot('ConnectedButtons', { /* initial props */ }),
+    r360.createRoot('ConnectedButtonInfoPanel', { /* initial props */ }),
     buttonsPanel
   );
 
   const infoPanel = new Surface(
     400,
-    550,
+    400,
     Surface.SurfaceShape.Flat
   );
 
